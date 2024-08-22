@@ -6,14 +6,16 @@
 Для работы бота необходимы nodejs (LTS v20), npm и git.
 Бот протестирован и работает на платформах Windows, Linux и MacOS.
 
+<br>
 
-
-## Git
+## Установка Git
 ### Windows, MacOs: https://git-scm.com/downloads
 ### Debian/Ubuntu: ``sudo apt-get install git``
 ### Arch: ``pacman -S git``
+<br>
 
-## node.js & npm
+
+## Установка node.js & npm
 ### Windows, MacOS: https://nodejs.org/en/download/prebuilt-installer
 ### Debian/Ubuntu
 
