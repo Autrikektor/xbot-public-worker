@@ -1,0 +1,45 @@
+#Логин аккаунта Steam
+XBOT_USERNAME=""
+
+#Пароль от аккаунта Steam
+XBOT_PASSWORD=""
+
+
+#mafile => sharedSecret
+XBOT_SHARED_SECRET=""
+
+#mafile => identitySecret
+XBOT_IDENTITY_SECRET=""
+
+
+#API-ключ аккаунта в xbot.gg
+XBOT_API_KEY=""
+
+#Автообнолвение бота
+XBOT_AUTOUPDATE=1
+
+
+
+
+
+
+
+
+#Дополнительные настройки
+
+#Настройка таймингов (не рекомендуется уменьшать)
+XBOT_TICKS_SEND_INVENTORY=60
+XBOT_TICKS_SEND_ORDERS=60
+XBOT_TICKS_PING=30
+XBOT_TICKS_LAST_HISTORY=300
+
+#Частота проверки аутентификатора. при значении 30 будет проверять раз в 30 секунд, при значении 120 то раз в две минуты.
+XBOT_TICKS_SEND_CONFIRMATION=60
+
+#User-agent всех запросов к Steam
+XBOT_USERAGENT="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+
+
+#Настройки прокси-сервера (пока не реализовано)
+XBOT_PROXY=""
