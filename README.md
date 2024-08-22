@@ -10,19 +10,12 @@
 
 ## Git
 ### Windows, MacOs: https://git-scm.com/downloads
-### Linux
-#### Debian/Ubuntu:
-``sudo apt-get install git``
-  
-#### Arch:
-``pacman -S git``
-
+### Debian/Ubuntu: ``sudo apt-get install git``
+### Arch: ``pacman -S git``
 
 ## node.js & npm
-### Windows, MacOS:
-https://nodejs.org/en/download/prebuilt-installer
-### Linux:
-#### Debian/Ubuntu
+### Windows, MacOS: https://nodejs.org/en/download/prebuilt-installer
+### Debian/Ubuntu
 
 ``sudo apt install -y curl``
 
@@ -32,8 +25,7 @@ https://nodejs.org/en/download/prebuilt-installer
   
   
   
-Arch:  
-  
+### Arch: 
 ``sudo pacman -S nodejs-lts-iron npm``
 
 
