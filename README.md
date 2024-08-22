@@ -7,7 +7,7 @@
 Бот протестирован и работает на платформах Windows, Linux и MacOS.
 
 
-##
+
 ## Git
 ### Windows, MacOs: https://git-scm.com/downloads
 ### Linux
