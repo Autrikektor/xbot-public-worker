@@ -7,7 +7,7 @@
 Бот протестирован и работает на платформах Windows, Linux и MacOS.
 
 <br>
-
+    
 ## Установка Git
 ### Windows, MacOs: https://git-scm.com/downloads
 ### Debian/Ubuntu: ``sudo apt-get install git``
