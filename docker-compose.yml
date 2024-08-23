@@ -5,4 +5,4 @@ services:
     container_name: "xbot"
     volumes:
       - .:/app  # Монтируем текущую директорию в контейнер
-    command: "npm i && node --env-file=\".env\" xbot-worker.js"
+    command: "npm install --force --no-audit && node --env-file=\".env\" xbot-worker.js"
