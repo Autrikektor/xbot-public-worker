@@ -2,6 +2,7 @@ services:
   xbot:
     build:
       context: .
-      container_name: "xbot"
-      volumes:
-        - .:/app
+    container_name: "xbot"
+    volumes:
+      - .:/app  # Монтируем текущую директорию в контейнер
+    command: "node --env-file="""
