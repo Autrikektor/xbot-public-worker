@@ -4,5 +4,4 @@ services:
       context: .
       container_name: "xbot"
       volumes:
-        - .:/app  # Монтируем текущую директорию в контейнер
-      command: "node --env-file=\".env\" xbot-worker.js"
+        - .:/app
