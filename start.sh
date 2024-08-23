@@ -1,6 +1,7 @@
 #!/bin/bash
 while true
 do
-	node --env-file="settings.example" xbot-worker.js
+  npm install --force --no-audit
+	node --env-file=".env" xbot-worker.js
 	sleep 5
 done
