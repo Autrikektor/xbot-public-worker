@@ -5,5 +5,9 @@ services:
       context: .
     container_name: "xbot"
     volumes:
-      - .:/app  # Монтируем текущую директорию в контейнер
+      - .:/app
     command:  "sh start.inside.docker.sh"
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
