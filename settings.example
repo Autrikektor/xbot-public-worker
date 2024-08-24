@@ -1,19 +1,19 @@
 #Логин аккаунта Steam
-XBOT_USERNAME=""
+XBOT_USERNAME=''
 
 #Пароль от аккаунта Steam
-XBOT_PASSWORD=""
+XBOT_PASSWORD=''
 
 
 #mafile => sharedSecret
-XBOT_SHARED_SECRET=""
+XBOT_SHARED_SECRET=''
 
 #mafile => identitySecret
-XBOT_IDENTITY_SECRET=""
+XBOT_IDENTITY_SECRET=''
 
 
 #API-ключ аккаунта в xbot.gg
-XBOT_API_KEY=""
+XBOT_API_KEY=''
 
 #Автообнолвение бота
 XBOT_AUTOUPDATE=1
@@ -37,9 +37,9 @@ XBOT_TICKS_LAST_HISTORY=300
 XBOT_TICKS_SEND_CONFIRMATION=60
 
 #User-agent всех запросов к Steam
-XBOT_USERAGENT="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+XBOT_USERAGENT='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
 
 
 
 #Настройки прокси-сервера (пока не реализовано)
-XBOT_PROXY=""
+XBOT_PROXY=''
